@@ -1,0 +1,5 @@
+function SlideImages(){
+    return (
+        <img/>
+    )
+}
