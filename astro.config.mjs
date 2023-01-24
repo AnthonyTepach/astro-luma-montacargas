@@ -13,8 +13,11 @@ import sitemap from "@astrojs/sitemap";
 import robotsTxt from "astro-robots-txt";
 
 // https://astro.build/config
+import react from "@astrojs/react";
+
+// https://astro.build/config
 export default defineConfig({
   site: 'https://anthonytepach.github.io',
   base: '/astro-luma-montacargas',
-  integrations: [tailwind(), sitemap(), robotsTxt()]
+  integrations: [tailwind(), sitemap(), robotsTxt(), react()]
 });
